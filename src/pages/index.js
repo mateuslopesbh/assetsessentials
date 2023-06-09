@@ -14,11 +14,7 @@ const Page = () => {
     <>
       <Seo />
       <main>
-        <HomeHero />
-        <HomeFeatures />
-        <HomeReviews />
-        <HomeCta />
-        <HomeFaqs />
+        <a href="/dashboard" style={{textAlign: "center", display: "block", marginTop: 250}}>Go to Dashboard</a>
       </main>
     </>
   );

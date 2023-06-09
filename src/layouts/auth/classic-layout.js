@@ -11,10 +11,9 @@ import { paths } from 'src/paths';
 const TOP_NAV_HEIGHT = 64;
 
 const LayoutRoot = styled('div')(({ theme }) => ({
-  backgroundColor: theme.palette.background.default,
+  backgroundColor: 'rgb(28, 37, 54)',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'top center',
-  backgroundImage: 'url("/assets/gradient-bg.svg")',
   display: 'flex',
   flex: '1 1 auto',
   flexDirection: 'column',
@@ -54,27 +53,12 @@ export const Layout = (props) => {
               <Box
                 sx={{
                   display: 'inline-flex',
-                  height: 24,
-                  width: 24
+                  width: 190
                 }}
               >
                 <Logo />
               </Box>
-              <Box
-                sx={{
-                  color: 'text.primary',
-                  fontFamily: '\'Plus Jakarta Sans\', sans-serif',
-                  fontSize: 14,
-                  fontWeight: 800,
-                  letterSpacing: '0.3px',
-                  lineHeight: 2.5,
-                  '& span': {
-                    color: 'primary.main'
-                  }
-                }}
-              >
-                Devias Kit <span>PRO</span>
-              </Box>
+              
             </Stack>
           </Stack>
         </Container>

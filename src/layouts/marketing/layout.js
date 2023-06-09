@@ -19,16 +19,8 @@ export const Layout = (props) => {
 
   return (
     <>
-      <TopNav onMobileNavOpen={mobileNav.handleOpen} />
-      {!lgUp && (
-        <SideNav
-          onClose={mobileNav.handleClose}
-          open={mobileNav.open}
-        />
-      )}
       <LayoutRoot>
         {children}
-        <Footer />
       </LayoutRoot>
     </>
   );

@@ -26,7 +26,7 @@ import { AuthIssuer } from 'src/sections/auth/auth-issuer';
 import { Issuer } from 'src/utils/auth';
 
 const initialValues = {
-  email: 'demo@devias.io',
+  email: 'demo@adobe.io',
   password: 'Password123!',
   submit: null
 };
@@ -156,10 +156,9 @@ const Page = () => {
         >
           <Alert severity="error">
             <div>
-              You can use <b>demo@devias.io</b> and password <b>Password123!</b>
+              You can use <b>demo@adobe.io</b> and password <b>Password123!</b>
             </div>
           </Alert>
-          <AuthIssuer issuer={issuer} />
         </Stack>
       </div>
     </>
