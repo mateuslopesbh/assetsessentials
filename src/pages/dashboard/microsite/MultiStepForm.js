@@ -18,7 +18,7 @@ import MicrositeCreated from './MicrositeCreated';
 
 const steps = ['Who we are', 'What we do', 'Meet our team', 'Connect on social', 'Finish'];
 
-export const MultiStepForm = () => {
+const MultiStepForm = () => {
   const [activeStep, setActiveStep] = useState(0);
   const [formData, setFormData] = useState({
     // Initialize your form data state here
@@ -146,3 +146,6 @@ export const MultiStepForm = () => {
     </Box>
   );
 };
+
+
+export default MultiStepForm;
